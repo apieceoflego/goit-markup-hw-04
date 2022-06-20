@@ -135,6 +135,14 @@ body {
   padding-bottom: 200px;
 }
 
+.overlay {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/overlay.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1600px;
+}
+
 .hero-title {
   margin: auto;
   width: 689px;
@@ -223,6 +231,8 @@ body {
 .team-box {
   background-color: var(--primery-bg-color);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-name {
@@ -353,6 +363,7 @@ body {
 .hero .btn:hover,
 .hero .btn:focus {
   background-color: var(--button-bgr-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-nav {
@@ -384,4 +395,6 @@ body {
 .button-nav .btn-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--primery-bg-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
