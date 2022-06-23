@@ -119,10 +119,27 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+
+.contact-icon {
+  fill: currentColor;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
+}
 /* Навигация контактов */
-.contact-nav .link:hover,
-.contact-nav .link:focus {
+.link-cont:hover,
+.link-cont:focus {
   color: var(--accent-color);
+}
+
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: currentColor;
 }
 /* Шапка сайта */
 
@@ -260,7 +277,57 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+/* Клиенты */
 
+.customer-title {
+  color: var(--tittle-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.customer {
+  display: flex;
+  margin: 0;
+}
+
+.customer-list {
+  margin-right: 30px;
+}
+
+.customer-list:last-child {
+  margin-right: 0px;
+}
+
+.customer-link {
+  display: block;
+
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.customer-icon {
+  fill: #afb1b8;
+  width: 106px;
+  height: 60px;
+  margin: 16px 32px;
+}
+
+.customer-link:hover,
+.customer-link:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+  fill: currentColor;
+  
 /* ФУТЕР */
 .footer {
   background-color: var(--footer-bgr-color);
