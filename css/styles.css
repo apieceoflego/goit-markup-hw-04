@@ -484,6 +484,20 @@ body {
   gap: 30px;
 }
 
+.btn-list {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.btn-list:hover,
+.btn-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-list {
   flex-basis: calc((100% - 60px) / 3);
 }
@@ -498,6 +512,8 @@ body {
   padding: 20px 24px;
   border: 1px solid var(--portfolio-border-color);
   border-top: none;
+  background-color: var(--primery-bg-color);
+  text-align: left;
 }
 
 .portfolio-title {
@@ -514,6 +530,7 @@ body {
   line-height: 2;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: var(--text-color);
 }
 /* КНОПКИ */
 .btn {
