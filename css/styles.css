@@ -89,8 +89,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav-item:hover,
-.site-nav-item:focus {
+.site-nav-item:hover .link-nav,
+.site-nav-item:focus .link-nav {
   color: var(--accent-color);
 }
 
@@ -178,14 +178,14 @@ body {
 }
 
 .feature-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
   height: 120px;
   background-color: var(--team-bgr-color);
   border-radius: 4px;
-  margin-bottom: 30px;
-}
-
-.feature-icon {
-  margin: 25px 100px;
 }
 
 .feature-title {
@@ -350,8 +350,9 @@ body {
 }
 
 .customer-link {
-  display: block;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
 
@@ -363,7 +364,6 @@ body {
   fill: #afb1b8;
   width: 106px;
   height: 60px;
-  margin: 16px 32px;
 }
 
 .customer-link:hover,
