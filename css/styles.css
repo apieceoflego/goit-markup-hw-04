@@ -89,8 +89,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav-item:hover .link-nav,
-.site-nav-item:focus .link-nav {
+.link-nav:hover,
+.link-nav:focus {
   color: var(--accent-color);
 }
 
