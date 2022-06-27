@@ -29,6 +29,7 @@ body {
 .list {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -121,8 +122,9 @@ body {
 }
 
 .contact-icon {
-  fill: currentColor;
   margin-right: 10px;
+
+  fill: currentColor;
 }
 
 /* Навигация контактов */
@@ -140,13 +142,19 @@ body {
 /* Sections */
 
 .hero {
-  text-align: center;
-  background-color: var(--footer-bgr-color);
   padding-top: 200px;
   padding-bottom: 200px;
+
+  text-align: center;
+
+  background-color: var(--footer-bgr-color);
 }
 
 .overlay {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/overlay.jpg);
   background-position: center;
@@ -182,8 +190,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-
   height: 120px;
+
   background-color: var(--team-bgr-color);
   border-radius: 4px;
 }
@@ -237,13 +245,14 @@ body {
 }
 
 .team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--tittle-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 50px;
 }
 
 .team-foto {
@@ -310,9 +319,10 @@ body {
 }
 
 .team-social-icon {
-  fill: #afb1b8;
   width: 20px;
   height: 20px;
+
+  fill: #afb1b8;
 }
 
 .team-social-link:hover,
@@ -327,13 +337,14 @@ body {
 /* Клиенты */
 
 .customer-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   color: var(--tittle-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 50px;
 }
 
 .customer {
@@ -382,35 +393,39 @@ body {
 }
 
 .footer {
-  background-color: var(--footer-bgr-color);
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: var(--footer-bgr-color);
 }
 
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+
   color: var(--primery-bg-color);
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
   text-decoration: none;
-  display: inline-block;
-  margin-bottom: 20px;
 }
 
 .footer-street {
+  display: inline-block;
+
   color: var(--primery-bg-color);
   line-height: 1.7;
   font-style: normal;
-  display: inline-block;
 }
 
 .footer-contact {
+  display: inline-block;
+
   color: var(--footer-text-color);
   text-decoration: none;
   line-height: 1.7;
   font-style: normal;
-  display: inline-block;
 }
 
 .footer-con {
@@ -431,16 +446,17 @@ body {
 }
 
 .footer-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-top: 12px;
+
   color: var(--primery-bg-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 20px;
-  margin-top: 12px;
 }
 
 .social {
@@ -461,8 +477,9 @@ body {
   display: block;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
   padding: 12px;
+
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
@@ -496,7 +513,6 @@ body {
 
 .portfolio-foto {
   display: block;
-
   margin-right: 0;
 }
 
@@ -504,24 +520,28 @@ body {
   padding: 20px 24px;
   border: 1px solid var(--portfolio-border-color);
   border-top: none;
-  background-color: var(--primery-bg-color);
+
   text-align: left;
+
+  background-color: var(--primery-bg-color);
 }
 
 .portfolio-title {
+  margin-top: 0px;
+  margin-bottom: 4px;
+
   color: var(--tittle-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  margin-top: 0px;
-  margin-bottom: 4px;
 }
 
 .portfolio-text {
-  font-size: 16px;
-  line-height: 2;
   margin-top: 0px;
   margin-bottom: 0px;
+
+  font-size: 16px;
+  line-height: 2;
   color: var(--text-color);
 }
 
@@ -531,17 +551,20 @@ body {
 }
 /* КНОПКИ */
 .btn {
+  border: 0px;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   color: var(--primery-bg-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  border: 0px;
-  border-radius: 4px;
-  padding: 10px 32px;
+
+  background-color: var(--accent-color);
+
+  cursor: pointer;
 }
 
 .hero .btn:hover,
@@ -577,8 +600,9 @@ body {
 
 .button-nav .btn-portfolio:hover,
 .button-nav .btn-portfolio:focus {
-  background-color: var(--accent-color);
   color: var(--primery-bg-color);
+
+  background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
